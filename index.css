@@ -1,79 +1,81 @@
-@font-face { font-family: CursedTimer; src: url('./fonts/CursedTimer.ttf'); }
+@font-face {
+  font-family: CursedTimer;
+  src: url("./fonts/CursedTimer.ttf");
+}
 
 body {
-    background: url($1);
-    margin: 0;
-    text-align: center;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h3 {
-    margin: 20px auto;
-    font-size: 40px;
-    color: #696559;
-    text-shadow: 0px 8px 6px #ffffff;
+  margin: 20px auto;
+  font-size: 40px;
+  color: #696559;
+  text-shadow: 0px 8px 6px #ffffff;
 }
 
 .reset-btn {
-    background: linear-gradient(#8c8c8c, #c9c9c9, #fafafa, #c9c9c9, #8c8c8c);
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    color: #828282;
-    border-radius: 50%;
-    font-family: CursedTimer, sans-serif;
-    border: 2px solid #828282;
-    box-shadow: 0px 10px 10px -8px #0f0f0f;
+  background: linear-gradient(#8c8c8c, #c9c9c9, #fafafa, #c9c9c9, #8c8c8c);
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  color: #828282;
+  border-radius: 50%;
+  font-family: CursedTimer, sans-serif;
+  border: 2px solid #828282;
+  box-shadow: 0px 10px 10px -8px #0f0f0f;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50% auto;
-    width: 575px;
-    height: 385px;
-    
-    background: url(./imgs/wood.jpg);
-    box-sizing: border-box;
-    border-radius: 20px;
-    border: 5px solid #696559;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 575px;
+  height: 385px;
+
+  background: url(./imgs/wood.jpg);
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 5px solid #696559;
 }
 
 .scoreBox {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    
-    color: #fb6f92;
-    background: #0f0f0f;
-    box-sizing: border-box;
-    width: 155px;
-    height: 120px;
-    padding-top: 15px;
-    padding-right: 15px;
-    
-    border: 3px solid #878378;
-    border-radius: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  color: #fb6f92;
+  background: #0f0f0f;
+  box-sizing: border-box;
+  width: 155px;
+  height: 120px;
+  padding-top: 15px;
+  padding-right: 15px;
+
+  border: 3px solid #878378;
+  border-radius: 20px;
 }
 
-
 .score {
-     font-family: CursedTimer, sans-serif;
-     font-size: 6rem;
+  font-family: CursedTimer, sans-serif;
+  font-size: 6rem;
 }
 
 .add-points-container {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
 .add-points-btn {
-    background: linear-gradient(#8c8c8c, #c9c9c9, #fafafa, #c9c9c9, #8c8c8c);
-    color: #828282;
-    
-    width: 45px;
-    height: 45px;
-    border: 2px solid #828282;
-    border-radius: 50%;
-    
-    font-family: CursedTimer, sans-serif;
+  background: linear-gradient(#8c8c8c, #c9c9c9, #fafafa, #c9c9c9, #8c8c8c);
+  color: #828282;
+
+  width: 45px;
+  height: 45px;
+  border: 2px solid #828282;
+  border-radius: 50%;
+
+  font-family: CursedTimer, sans-serif;
 }
